@@ -3,7 +3,7 @@
 
 #(PsychoPy) Libraries I want to use
 import os, csv, random, itertools, datetime
-from psychopy import visual, core, event, gui #Verschiedene (5/20) Libraries von Psychopy
+from psychopy import visual, core, event, gui #PsychoPy Libraries (5/20)
 
 
 '''Set up'''
