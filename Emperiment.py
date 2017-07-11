@@ -114,7 +114,7 @@ def writeTrialToFile(left_image, top_image, right_image, cued, left, female, tar
     with open(fileName, 'ab') as saveFile: #'a' = append; 'w' = writing; 'b' = in binary mode
         fileWriter = csv.writer(saveFile, delimiter=',') #generate fileWriter ... somewhat similar to java
         if os.stat(fileName).st_size == 0: #if file is empty, insert header
-            fileWriter.writerow(('expName', 'Subject', 'date', 'block', 'trial', 'left_face', 'top_face', 'right_face', 'cued', 'left', 'female', 'target_E', 'target_left', 'number_of_cues', 'correct', 'rt'))
+            fileWriter.writerow(('expName', 'subject', 'date', 'block', 'trial', 'left_face', 'top_face', 'right_face', 'cue_trial', 'left_cue', 'female_trial', 'target_E', 'target_left', 'number_of_cues', 'correct_response', 'rt'))
 
         #write trial
         fileWriter.writerow((experimentName, expInfo['Subject'], getTimestampNow(), blockCounter, trialCounter, left_image, top_image, right_image, cued, left, female, target, targetPos, number_of_cues, correct, RT))
