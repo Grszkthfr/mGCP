@@ -78,7 +78,7 @@ def getTimestampNow(format='%Y-%m-%d_%H:%M'):
     return getTimestamp(core.getAbsTime(), format)
 
 
-'''my own functions'''
+'''my own BLABLA functions'''
 
 
 def prepare():
