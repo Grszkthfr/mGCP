@@ -24,7 +24,7 @@ trialList = []  # complete List of trials
 trialCounter = 1  # trial counter starting at 1
 blockCounter = 1 # block counter starting at 1
 
-# Stimuli, number important to detect identical faces in a single trial
+# Stimuli, number important to detect identical fblalblablaaces in a single trial
 femaleFace1 = '090_' + '19'
 femaleFace2 = '090_' + '26'
 femaleFace3 = '090_' + '61'
