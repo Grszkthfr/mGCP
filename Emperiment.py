@@ -24,7 +24,8 @@ trialList = []  # complete List of trials
 trialCounter = 1  # trial counter starting at 1
 blockCounter = 1 # block counter starting at 1
 
-# Stimuli, number important to detect identical fblalblablaaces in a single trial
+# Stimuli, number important to detect identical faces in a single trial
+# Faces (19,26,61,10,15,71) from 'Radboud Faces Database' (Langner et al., 2010, DOI: http://dx.doi.org/10.1080/02699930903485076)
 femaleFace1 = '090_' + '19'
 femaleFace2 = '090_' + '26'
 femaleFace3 = '090_' + '61'
@@ -48,7 +49,7 @@ quitKey = "q" # exit key for experiment at any given time
 
 # creat a window
 window = ""
-myText = ''  # required for showText-Funciton
+myText = ""  # required for showText-Funciton
 
 ########################################
 ############Functions###################
