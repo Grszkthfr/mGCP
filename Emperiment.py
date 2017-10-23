@@ -308,8 +308,8 @@ def run():
 ############################################
 
 
-fillList(femaleList, cueDirectory + '/femaleFace')  # get a list with  female faces from directory
-fillList(maleList, cueDirectory + '/maleFace')  # get a list with  female faces from directory
+fillList(femaleList, cueDirectory + '/femaleFace')  # get a list with female faces from directory
+fillList(maleList, cueDirectory + '/maleFace')  # get a list with female faces from directory
 
 temporaryTrialList = list(itertools.permutations(femaleList, 3)) + list(itertools.permutations(maleList,
                                                                                                3))  # complete list with (male & female) faces with permutations in combination of three
